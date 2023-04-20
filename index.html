@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet/less" type="text/css" href="./static/styles/style.less" />
+  <link rel="icon" type="image/jpg" href="./static/img/favicon.svg"/>
+</head>
+<body>
+  <!-- code here -->
+  <section>
+    <div class="form-box">
+      <div class="form-value">
+        <form action="">
+          <h2>Login</h2>
+          <div class="inputbox">
+            <ion-icon name="mail-outline"></ion-icon>
+            <input id="email" type="email" required placeholder=none>
+            <label for="email">Email</label>
+          </div>
+          <div class="inputbox">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input id="password" type="password" required placeholder=none>
+            <label for="password">Password</label>
+          </div>
+          <div class="forget">
+            <label for="check" ><input id="check" type="checkbox">Remember Me <a href="#">Forget Password</a></label>
+          </div>
+          <button>Login</button>
+          <div class="register">
+            <p>Don't have account <a href="#">Register</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- ionic icon -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- less -->
+  <script src="https://cdn.jsdelivr.net/npm/less" ></script>
+</body>
+</html>
